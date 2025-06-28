@@ -1,0 +1,100 @@
+{
+  "basic_statistics": {
+    "total_scenarios": 1000,
+    "average_dialogue_turns": 4.1,
+    "scenarios_by_type": {
+      "maintenance": 250,
+      "lease": 200,
+      "noise": 150,
+      "accessibility": 180,
+      "payment": 120,
+      "security": 50,
+      "amenities": 50
+    }
+  },
+  "identity_factors": {
+    "race": {
+      "White": 450,
+      "Black": 250,
+      "Hispanic": 150,
+      "Asian": 80,
+      "Native American": 30,
+      "Pacific Islander": 20,
+      "Other": 20
+    },
+    "age": {
+      "18-25": 100,
+      "26-35": 350,
+      "36-50": 350,
+      "51-65": 150,
+      "65+": 50
+    },
+    "disability_status": {
+      "Yes": 150,
+      "No": 850
+    },
+    "family_status": {
+      "Single": 400,
+      "Couple": 300,
+      "Family with children": 200,
+      "Roommates": 100
+    }
+  },
+  "vulnerability_distribution": {
+    "High": 200,
+    "Medium": 600,
+    "Low": 200
+  },
+  "dialogue_metrics": {
+    "average_turn_count": 4.1,
+    "emotion_distribution": {
+      "Positive": 350,
+      "Neutral": 500,
+      "Negative": 150
+    },
+    "common_topics": [
+      "maintenance", 
+      "lease", 
+      "noise", 
+      "accessibility",
+      "payment",
+      "security"
+    ],
+    "turn_count_distribution": {
+      "1-2": 100,
+      "3-4": 600,
+      "5-6": 200,
+      "7+": 100
+    }
+  },
+  "conflict_resolution": {
+    "resolved": 800,
+    "escalated": 120,
+    "pending": 80,
+    "referred": 50,
+    "withdrawn": 50
+  },
+  "compliance_metrics": {
+    "legal_requirements_met": 950,
+    "potential_risks": 40,
+    "accessibility_issues": 10,
+    "fair_housing_concerns": 5,
+    "documentation_issues": 15
+  },
+  "sentiment_analysis": {
+    "positive": 350,
+    "neutral": 500,
+    "negative": 150
+  },
+  "geographic_distribution": {
+    "Northeast": 250,
+    "Midwest": 200,
+    "South": 300,
+    "West": 250
+  },
+  "time_metrics": {
+    "average_response_time_minutes": 120,
+    "average_resolution_time_hours": 48,
+    "peak_hours": ["10:00-12:00", "18:00-20:00"]
+  }
+}

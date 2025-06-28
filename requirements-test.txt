@@ -1,0 +1,37 @@
+# Test dependencies
+pytest>=7.0.0
+pytest-cov>=3.0.0
+pytest-timeout>=2.1.0
+pytest-xdist>=2.5.0
+pytest-cov
+pytest-benchmark
+safety
+bandit
+pytest-xdist
+# For browser-based testing
+selenium>=4.0.0
+webdriver-manager>=3.8.0
+
+# For PDF testing
+PyPDF2>=2.0.0
+
+# For testing visualizations
+plotly>=5.0.0
+
+# For HTML testing
+beautifulsoup4>=4.10.0
+lxml>=4.6.0
+
+# For mocking
+pytest-mock>=3.7.0
+
+# For async testing
+pytest-asyncio>=0.18.0
+
+# For type checking in tests
+pytest-mypy>=0.9.0
+
+# For checking code style
+pytest-flake8>=1.1.0
+pytest-black>=0.3.0
+pytest-isort>=2.0.0

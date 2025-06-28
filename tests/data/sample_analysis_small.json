@@ -1,0 +1,60 @@
+{
+  "basic_statistics": {
+    "total_scenarios": 50,
+    "average_dialogue_turns": 3.2,
+    "scenarios_by_type": {
+      "maintenance": 15,
+      "lease": 10,
+      "noise": 8,
+      "accessibility": 12,
+      "other": 5
+    }
+  },
+  "identity_factors": {
+    "race": {
+      "White": 20,
+      "Black": 15,
+      "Hispanic": 10,
+      "Asian": 5
+    },
+    "age": {
+      "18-25": 10,
+      "26-35": 20,
+      "36-50": 15,
+      "51+": 5
+    },
+    "disability_status": {
+      "Yes": 8,
+      "No": 42
+    }
+  },
+  "vulnerability_distribution": {
+    "High": 10,
+    "Medium": 25,
+    "Low": 15
+  },
+  "dialogue_metrics": {
+    "average_turn_count": 3.2,
+    "emotion_distribution": {
+      "Positive": 15,
+      "Neutral": 25,
+      "Negative": 10
+    },
+    "common_topics": ["maintenance", "lease", "noise"]
+  },
+  "conflict_resolution": {
+    "resolved": 40,
+    "escalated": 7,
+    "pending": 3
+  },
+  "compliance_metrics": {
+    "legal_requirements_met": 48,
+    "potential_risks": 2,
+    "accessibility_issues": 1
+  },
+  "sentiment_analysis": {
+    "positive": 25,
+    "neutral": 20,
+    "negative": 5
+  }
+}

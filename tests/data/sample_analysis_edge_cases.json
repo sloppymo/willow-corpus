@@ -1,0 +1,21 @@
+{
+  "basic_statistics": {
+    "total_scenarios": 0,
+    "average_dialogue_turns": 0,
+    "scenarios_by_type": {}
+  },
+  "identity_factors": {
+    "race": {},
+    "age": {},
+    "disability_status": {}
+  },
+  "vulnerability_distribution": {},
+  "dialogue_metrics": {
+    "average_turn_count": 0,
+    "emotion_distribution": {},
+    "common_topics": []
+  },
+  "conflict_resolution": {},
+  "compliance_metrics": {},
+  "sentiment_analysis": {}
+}
