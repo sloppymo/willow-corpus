@@ -1,0 +1,103 @@
+[
+  {
+    "scenario_id": "existing_1",
+    "title": "Existing Scenario 1",
+    "description": "An existing scenario in the main dataset",
+    "vulnerabilities": [
+      "other_vulnerability"
+    ],
+    "scenario": "This is an existing scenario in the main dataset.",
+    "responses": [],
+    "metadata": {
+      "created_at": "2025-06-27T10:00:00Z",
+      "last_updated": "2025-06-27T10:00:00Z",
+      "tags": [
+        "sample"
+      ],
+      "validation_status": "validated"
+    }
+  },
+  {
+    "scenario_id": "existing_2",
+    "title": "Existing Scenario 2",
+    "description": "Another existing scenario in the main dataset",
+    "vulnerabilities": [
+      "another_vulnerability"
+    ],
+    "scenario": "This is another existing scenario in the main dataset.",
+    "responses": [],
+    "metadata": {
+      "created_at": "2025-06-27T11:00:00Z",
+      "last_updated": "2025-06-27T11:00:00Z",
+      "tags": [
+        "sample"
+      ],
+      "validation_status": "validated"
+    }
+  },
+  {
+    "scenario_id": "RC_8e527d32",
+    "title": "Roommate Conflict - Chore Dispute",
+    "description": "Roommate conflict over kitchen cleanliness and shared responsibilities",
+    "vulnerabilities": [
+      "interpersonal_conflict",
+      "communication_breakdown"
+    ],
+    "messages": [
+      {
+        "role": "tenant1",
+        "content": "My roommate never cleans the kitchen after cooking!",
+        "emotional_state": "frustrated",
+        "timestamp": "2025-06-29T10:00:00Z"
+      },
+      {
+        "role": "tenant2",
+        "content": "I clean when I have time - they're too demanding!",
+        "emotional_state": "defensive",
+        "timestamp": "2025-06-29T10:01:30Z"
+      }
+    ],
+    "metadata": {
+      "created_at": "2025-06-29T21:56:02.583492+00:00",
+      "last_updated": "2025-06-29T21:56:02.583493+00:00",
+      "tags": [
+        "roommate_conflict",
+        "chore_dispute",
+        "cultural_differences"
+      ],
+      "validation_status": "pending_review",
+      "source": "generated_v2",
+      "emotional_triggers": [
+        "perceived_laziness",
+        "cultural_differences",
+        "communication_breakdown"
+      ],
+      "cultural_context": [
+        {
+          "role": "tenant",
+          "cultural_background": "european_american",
+          "language": "english",
+          "language_barrier": false
+        },
+        {
+          "role": "tenant",
+          "cultural_background": "latinx",
+          "language": "spanish",
+          "language_barrier": true
+        }
+      ],
+      "resolution_metrics": {
+        "method": "mediated_conversation",
+        "outcome": "agreement_reached",
+        "satisfaction": 0.8,
+        "initial_arousal": 7.0,
+        "final_arousal": 4.0,
+        "deescalation_techniques": [
+          "active_listening",
+          "reframing"
+        ],
+        "time_to_resolution": "PT1M"
+      }
+    }
+  }
+]
